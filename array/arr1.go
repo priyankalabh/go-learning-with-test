@@ -8,4 +8,9 @@ func main() {
 	for i := 0; i < 5; i++ {
 		fmt.Printf("%v \t", arr[i])
 	}
+	fmt.Println("")
+	for _, val := range arr {
+		fmt.Printf("%v \t", val)
+
+	}
 }
